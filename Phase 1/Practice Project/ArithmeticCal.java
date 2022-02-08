@@ -56,7 +56,10 @@ public class Calci {
                 System.out.print("Your answer is ");
                 System.out.println(div1/div2);
                 break;
-
+                
+                default:
+                System.out.println("You have entered wrong choice");
+                break;
         }
     }
 }
