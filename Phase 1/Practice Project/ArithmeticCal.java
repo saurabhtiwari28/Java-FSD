@@ -1,7 +1,7 @@
-package training.java1;
+package com.javatraining;
 import java.util.Scanner;
 
-public class Calci {
+public class calci {
     public static void main(String[] args) {
 
         System.out.println("Enter 1 for Addition");
@@ -56,10 +56,11 @@ public class Calci {
                 System.out.print("Your answer is ");
                 System.out.println(div1/div2);
                 break;
-                
+
                 default:
                 System.out.println("You have entered wrong choice");
                 break;
         }
     }
 }
+
